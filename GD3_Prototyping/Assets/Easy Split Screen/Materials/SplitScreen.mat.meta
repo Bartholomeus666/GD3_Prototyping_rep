@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5c877b87a6426ba4a87d5c58ba0a5f46
+timeCreated: 1488253603
+licenseType: Store
+NativeFormatImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191084
+  packageName: Easy Split Screen
+  packageVersion: 1.0
+  assetPath: Assets/Easy Split Screen/Materials/SplitScreen.mat
+  uploadId: 425802

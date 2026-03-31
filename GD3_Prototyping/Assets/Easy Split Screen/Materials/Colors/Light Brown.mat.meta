@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b6991d0b552f50a4a9be1105b0402887
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191084
+  packageName: Easy Split Screen
+  packageVersion: 1.0
+  assetPath: Assets/Easy Split Screen/Materials/Colors/Light Brown.mat
+  uploadId: 425802

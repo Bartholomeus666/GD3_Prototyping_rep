@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 9d3c2ed0b5e414048b50aaf6f214e1dc
+timeCreated: 1487611976
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191084
+  packageName: Easy Split Screen
+  packageVersion: 1.0
+  assetPath: Assets/Easy Split Screen/Scripts/EasySplitScreen.cs
+  uploadId: 425802

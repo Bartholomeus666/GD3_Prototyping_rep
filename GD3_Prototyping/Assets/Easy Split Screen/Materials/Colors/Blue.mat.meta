@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 623b204d9387b9740bfdffa11ba9a867
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191084
+  packageName: Easy Split Screen
+  packageVersion: 1.0
+  assetPath: Assets/Easy Split Screen/Materials/Colors/Blue.mat
+  uploadId: 425802

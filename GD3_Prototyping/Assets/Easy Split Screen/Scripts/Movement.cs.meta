@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 29acea7b6ee9bec48b56791ce2c92bf6
+timeCreated: 1487793684
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191084
+  packageName: Easy Split Screen
+  packageVersion: 1.0
+  assetPath: Assets/Easy Split Screen/Scripts/Movement.cs
+  uploadId: 425802

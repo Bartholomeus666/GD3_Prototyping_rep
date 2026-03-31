@@ -3949,7 +3949,7 @@ MonoBehaviour:
   throwableLayer:
     serializedVersion: 2
     m_Bits: 64
-  throwForce: 3
+  throwForce: 5
   CheckBox: {x: 1, y: 1, z: 1}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5ed3cde68457d0e4baa467f23d7efed4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 191084
+  packageName: Easy Split Screen
+  packageVersion: 1.0
+  assetPath: Assets/Easy Split Screen/Materials/Colors/Brick.mat
+  uploadId: 425802
