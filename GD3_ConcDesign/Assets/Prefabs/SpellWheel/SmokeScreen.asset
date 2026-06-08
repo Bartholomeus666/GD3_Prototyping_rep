@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 700fb4cd6276fb44c9e72aafb0d25abe, type: 3}
+  m_Name: SmokeScreen
+  m_EditorClassIdentifier: Assembly-CSharp::ProjectileSpell
+  spellName: SmokeScreen
+  wheelColor: {r: 0.60188675, g: 0.9944807, b: 1, a: 1}
+  icon: {fileID: 21300000, guid: 52e6932e83b7e2848a0ec88a6f6c778a, type: 3}
+  projectilePrefab: {fileID: 7243813652062839116, guid: ecdbd5df04e34b6488d4f897f868ed47, type: 3}

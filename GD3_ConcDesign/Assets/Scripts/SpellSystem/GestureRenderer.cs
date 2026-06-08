@@ -2,23 +2,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-/// <summary>
-/// Draws the in-progress gesture as a smoothed line on a UI Canvas.
-///
-/// Setup:
-///   1. Create a Canvas (Screen Space – Overlay, or Camera).
-///   2. Add an empty child GameObject, name it "GestureRenderer".
-///   3. Stretch its RectTransform to fill the canvas (anchor min 0,0 / max 1,1).
-///   4. Add this component to it.
-///   5. Drag it into the SpellCaster's "Gesture Renderer" field.
-/// </summary>
 [RequireComponent(typeof(CanvasRenderer))]
 public class GestureRenderer : Graphic
 {
-    // ------------------------------------------------------------------
-    // Inspector
-    // ------------------------------------------------------------------
-
     [Header("Line appearance")]
     [Tooltip("Thickness of the gesture line in pixels.")]
     public float lineWidth = 6f;
@@ -33,17 +19,11 @@ public class GestureRenderer : Graphic
     public bool useGradient = true;
     public Gradient gradient;
 
-    // ------------------------------------------------------------------
-    // Private state
-    // ------------------------------------------------------------------
     private List<Vector2> _points    = new();
     private bool          _fading    = false;
     private float         _fadeTimer = 0f;
     private float         _alpha     = 1f;
 
-    // ------------------------------------------------------------------
-    // Graphic overrides
-    // ------------------------------------------------------------------
     protected override void Awake()
     {
         base.Awake();
@@ -139,9 +119,6 @@ public class GestureRenderer : Graphic
             vh.AddTriangle(baseIdx, baseIdx + s + 1, baseIdx + s + 2);
     }
 
-    // ------------------------------------------------------------------
-    // Update – handles fade out
-    // ------------------------------------------------------------------
     private void Update()
     {
         if (!_fading) return;
@@ -158,11 +135,6 @@ public class GestureRenderer : Graphic
         }
     }
 
-    // ------------------------------------------------------------------
-    // Public API – called by SpellCaster
-    // ------------------------------------------------------------------
-
-    /// <summary>Begin a new gesture line.</summary>
     public void StartGesture()
     {
         _points.Clear();

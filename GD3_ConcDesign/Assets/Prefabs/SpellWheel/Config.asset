@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff0c20701f96f4142addf6d320bfe80c, type: 3}
+  m_Name: Config
+  m_EditorClassIdentifier: Assembly-CSharp::SpellWheelConfig
+  slots:
+  - spell: {fileID: 11400000, guid: f5b0fc53667ae264a87a395f2490d114, type: 2}
+    percent: 0.5612592
+  - spell: {fileID: 11400000, guid: 383958ebc35c4bf4ab682ef7a66cfee2, type: 2}
+    percent: 0.24327445
+  - spell: {fileID: 11400000, guid: 82b26f37152b96a48ad77cd40d6ba66b, type: 2}
+    percent: 0.19546638

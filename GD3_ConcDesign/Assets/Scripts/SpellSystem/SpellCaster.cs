@@ -24,6 +24,7 @@ public class SpellCaster : MonoBehaviour
     [Tooltip("Minimum number of pointer samples required before attempting a match.")]
     public int minSamples = 8;
 
+    public Transform castOrigin;
 
     public System.Action<SpellPatternData> OnSpellCast;
     public System.Action                   OnCastFailed;
@@ -106,6 +107,7 @@ public class SpellCaster : MonoBehaviour
         {
             Debug.Log($"[SpellCaster] Cast: {best.name}  (score={bestScore:F3})");
             OnSpellCast?.Invoke(best);
+            Instantiate(best.spellPrefab, castOrigin.position, castOrigin.rotation);
         }
         else
         {
